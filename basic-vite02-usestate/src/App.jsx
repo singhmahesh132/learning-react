@@ -21,8 +21,11 @@ function App() {
 
   //Instead to maintain single state in all the parts where variable is decalared we use react's useState.
   //It was used to solve ghostState problem in facebook.
-  const [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(15) 
+  //useState()method is used to initaialise the value and it returns a list of single value (actualVariablr, function to manage value of variable) 
+  // here counter is a vairable and setCounter is a method.
 
+  
   const addValue = () =>{
     setCounter(counter + 1)
     /* Interview Hack
